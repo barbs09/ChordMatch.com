@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChordMatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ChordMatch</h1>
+        <p>Find songs that match your chord progression!</p>
+    </header>
+    <main>
+        <section id="search-section">
+            <h2>Enter Your Chord Progression</h2>
+            <input type="text" id="chord-input" placeholder="E.g., C G Am F" maxlength="50">
+            <button id="search-btn">Search Songs</button>
+        </section>
+        <section id="results-section">
+            <h2>Matching Songs</h2>
+            <ul id="results-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 ChordMatch. All rights reserved.</p>
+    </footer>
+    <!-- Script do mecanismo de busca Google -->
+    <script async src="https://cse.google.com/cse.js?cx=547baec8756a84ae4"></script>
+    <!-- Script principal -->
+    <script src="script.js"></script>
+</body>
+</html>

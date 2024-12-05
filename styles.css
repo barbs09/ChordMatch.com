@@ -1,0 +1,70 @@
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4a148c; /* Roxo escuro */
+    color: #f8bbd0; /* Rosa bebê */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para cabeçalho e rodapé */
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a1b9a; /* Roxo mais claro */
+    color: #f8bbd0; /* Rosa bebê */
+    font-weight: bold;
+}
+
+/* Estilo do botão */
+#search-btn {
+    padding: 10px 20px;
+    background-color: #f8bbd0; /* Rosa bebê */
+    color: #4a148c; /* Roxo escuro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #ce93d8; /* Roxo pastel */
+}
+
+/* Entrada de texto */
+#chord-input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #f8bbd0; /* Rosa bebê */
+    border-radius: 5px;
+    background-color: #4a148c; /* Roxo escuro */
+    color: #f8bbd0; /* Rosa bebê */
+}
+
+/* Estilo das listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    background-color: #6a1b9a; /* Roxo mais claro */
+    padding: 10px;
+    border-radius: 5px;
+    color: #f8bbd0; /* Rosa bebê */
+}
+
+/* Títulos das seções */
+h1, h2, p {
+    color: #f8bbd0; /* Rosa bebê */
+}
+
+/* Texto em geral */
+textarea {
+    background-color: #4a148c; /* Roxo escuro */
+    color: #f8bbd0; /* Rosa bebê */
+    border: 2px solid #f8bbd0; /* Rosa bebê */
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
